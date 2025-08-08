@@ -46,6 +46,25 @@ ul{
     border-radius: 5px;
 }
 
+.sidebar{
+    display: none;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.183);
+    position:fixed;
+    top: 0;
+    right: 0;
+    width: 55%;
+    height: 100vh;
+    gap: 5vh;
+    padding-block: 5vh;
+    padding-inline: 2vw;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
+.menubutton{
+    display: none;
+}
 
 .navigation{
     justify-content: space-between;
@@ -126,6 +145,7 @@ h2{
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
+    gap: 1vh;
 }
 
 .card-image{
@@ -142,8 +162,11 @@ h2{
 }
 
 .card{
+
+    align-items: center;
+    justify-content: center;
     padding-inline: 2vw;
-    padding-block: 2vh;
+    /* padding-block: 2vh; */
     flex-direction: column;
     gap: 2vh;
     width: 40%;
@@ -195,7 +218,6 @@ h2{
 /* Footer */
 .footer{
     width: 100%;
-    height: 40vh;
     background-color:rgb(71, 71, 71);
     margin-top: 10vh;
     height: 50vh;
@@ -213,12 +235,13 @@ h2{
     justify-content: space-around;
     padding: 2vw;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .list2, .list3, .list4, .list5, .list6{
     flex-direction: column;
-    justify-content:space-around;
-    align-items: flex-start;
+    justify-content:center;
+    /* align-items: flex-start; */
     gap: 3vh;
 }
 

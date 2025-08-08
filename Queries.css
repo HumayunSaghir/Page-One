@@ -1,0 +1,127 @@
+/* For Normal Mobile Devices */
+@media (max-width:600px){
+    .main{
+        background-image: url(./assets/mobile.png);
+        background-size: cover;
+        background-blend-mode: hard-light;
+        background-color: rgba(0, 0, 0, 0.144);
+    }
+    
+    .hero h2{
+        /* font-size: 3rem; */
+        position: absolute;
+        top: 80px;
+    }
+
+    .navlinks{
+        display: none;
+    }
+
+    .list1 .secondarybutton{
+        display: none;
+    }
+
+    .list1 .primarybutton{
+        display: none;
+    }
+
+    .navigation{
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .nav-logo{
+        width: 20vw;
+        height: 5vh;
+    }
+
+    .menubutton{
+        display: block;
+    }
+
+    .link{
+        display: block;
+    }
+
+    /* Top Sales and Card Section */
+
+    .card-image{
+        height: 25vh;
+        width: 35vw;
+    }
+
+    .card{
+        width: 45%;
+        flex-direction: column;
+        gap: 1vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card h3,p{
+        text-align: center;
+    }
+
+    .mobileButtonTopMargin{
+        margin-top: 2.2vh;
+    }
+
+    /* Niche Header and niche section*/
+    .niches h2{
+        font-size: 2rem;
+        padding-inline: 3px;
+    }
+    
+    .niches{
+        height: 60vh;
+        width: 98%;
+        margin-inline: auto;
+        border-radius: 10px;
+    }
+
+    .nicheMobile{
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 10vw;
+    }
+
+    .nichecards .card{
+        gap: 1vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .niche p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .primarybutton{
+        text-align: center;
+        padding-inline: 2vw;
+    }
+
+    .niche .card{
+        width: 50%;
+    }
+
+    /* Footer Section */
+    .footer{
+        height: 40vh;
+    }
+    .lists{
+        justify-content: space-around;
+        font-size:0.85rem;
+        gap: 4vw;
+    }
+
+    .list2, .list6{
+        display: none;
+    }
+
+    .beep{
+        margin-top: 2vh;
+    }
+
+}
