@@ -52,7 +52,7 @@ ul{
     background-color: rgba(255, 255, 255, 0.183);
     position:fixed;
     top: 0;
-    right: 0;
+    /* right: -300px; */
     width: 55%;
     height: 100vh;
     gap: 5vh;
@@ -60,6 +60,22 @@ ul{
     padding-inline: 2vw;
     backdrop-filter: blur(10px);
     z-index: 1;
+    transition: all 0.3s ease-in-out;
+    animation-name: slide;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+
+    
+}
+
+/* Animation for slide bar */
+@keyframes slide{
+    from{
+        right: -300px;
+    }
+    to{
+        right: 0;
+    }
 }
 
 .menubutton{

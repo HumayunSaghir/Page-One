@@ -125,3 +125,44 @@
     }
 
 }
+
+/* For Large Laptop and Desktops */
+@media (min-width:1025px) and (max-width:1280px){
+    /* Top Sales */
+    .card-image{
+        height: 38vh;
+    }
+}
+
+/* For Tablets */
+@media (min-width:768px) and (max-width:1024px){
+    /* Top Sales */
+    .card-image{
+        height: 20vh;
+    }
+
+    .button1{
+        margin-top: 1.5vh;
+    }
+
+    .p{
+        margin-top: 15px;
+    }
+}
+
+/* For Extra Small Devices */
+@media (max-width:481px){
+    .hero h2{
+        font-size: 2rem;
+    }
+
+    .topsales{
+        flex-direction: column;
+        align-items: center;
+        gap: 3vh;
+    }
+
+    .card-image{
+        height: 30vh;
+    }
+}
